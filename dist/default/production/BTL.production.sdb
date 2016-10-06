@@ -1,0 +1,681 @@
+[p LITE_MODE AUTOSTATIC PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F887 ]
+[d frameptr 6 ]
+"6 C:\Program Files\Microchip\xc8\v1.35\sources\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+[v i1___awdiv __awdiv `(i  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v1.35\sources\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+[v i1___awmod __awmod `(i  1 e 2 0 ]
+"32 C:\Program Files\Microchip\xc8\v1.35\sources\common\awtoft.c
+[v ___awtoft __awtoft `(f  1 e 3 0 ]
+"62 C:\Program Files\Microchip\xc8\v1.35\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files\Microchip\xc8\v1.35\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"56 C:\Program Files\Microchip\xc8\v1.35\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"62 C:\Program Files\Microchip\xc8\v1.35\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"44 C:\Program Files\Microchip\xc8\v1.35\sources\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v1.35\sources\common\Umul8.c
+[v ___bmul __bmul `(uc  1 e 1 0 ]
+[v i1___bmul __bmul `(uc  1 e 1 0 ]
+"6 C:\Program Files\Microchip\xc8\v1.35\sources\pic\eeprom.c
+[v _eecpymem eecpymem `(v  1 e 0 0 ]
+"24
+[v _memcpyee memcpyee `(v  1 e 0 0 ]
+"5 C:\Users\Administrator\MPLABXProjects\BTL\i2c.c
+[v _i2c_Init i2c_Init `(v  1 e 0 0 ]
+"11
+[v _i2c_Start i2c_Start `(v  1 e 0 0 ]
+[v i1_i2c_Start i2c_Start `(v  1 e 0 0 ]
+"17
+[v _i2c_Restart i2c_Restart `(v  1 e 0 0 ]
+[v i1_i2c_Restart i2c_Restart `(v  1 e 0 0 ]
+"23
+[v _i2c_Stop i2c_Stop `(v  1 e 0 0 ]
+[v i1_i2c_Stop i2c_Stop `(v  1 e 0 0 ]
+"36
+[v _i2c_Nack i2c_Nack `(v  1 e 0 0 ]
+[v i1_i2c_Nack i2c_Nack `(v  1 e 0 0 ]
+"43
+[v _i2c_Write i2c_Write `(v  1 e 0 0 ]
+[v i1_i2c_Write i2c_Write `(v  1 e 0 0 ]
+"49
+[v _i2c_Read i2c_Read `(uc  1 e 1 0 ]
+[v i1_i2c_Read i2c_Read `(uc  1 e 1 0 ]
+"60
+[v _DS1307_Write DS1307_Write `(v  1 e 0 0 ]
+"70
+[v _DS1307_Read DS1307_Read `(uc  1 e 1 0 ]
+[v i1_DS1307_Read DS1307_Read `(uc  1 e 1 0 ]
+"12 C:\Users\Administrator\MPLABXProjects\BTL\LCD.c
+[v _Lcd_Port Lcd_Port `(v  1 e 0 0 ]
+"34
+[v _Lcd_Cmd Lcd_Cmd `(v  1 e 0 0 ]
+"49
+[v _Lcd_Set_Cursor Lcd_Set_Cursor `(v  1 e 0 0 ]
+"70
+[v _Lcd_Init Lcd_Init `(v  1 e 0 0 ]
+"89
+[v _Lcd_Write_Char Lcd_Write_Char `(v  1 e 0 0 ]
+"105
+[v _Lcd_Write_String Lcd_Write_String `(v  1 e 0 0 ]
+"50 C:\Users\Administrator\MPLABXProjects\BTL\main.c
+[v _Fix_Time Fix_Time `(v  1 e 0 0 ]
+"88
+[v _Fix_Alarm Fix_Alarm `(v  1 e 0 0 ]
+"108
+[v _Read_FullTime Read_FullTime `(v  1 e 0 0 ]
+[v i1_Read_FullTime Read_FullTime `(v  1 e 0 0 ]
+"118
+[v _Read_Time Read_Time `(v  1 e 0 0 ]
+"130
+[v _Read_Tem Read_Tem `(v  1 e 0 0 ]
+"138
+[v _Write_Min Write_Min `(v  1 e 0 0 ]
+"148
+[v _Write_Hour Write_Hour `(v  1 e 0 0 ]
+"167
+[v _Write_Time Write_Time `(v  1 e 0 0 ]
+"175
+[v _Change_Mode12h Change_Mode12h `(v  1 e 0 0 ]
+"204
+[v _Display Display `(v  1 e 0 0 ]
+"209
+[v _Display_Hour Display_Hour `(v  1 e 0 0 ]
+"215
+[v _Display_HourAlarm Display_HourAlarm `(v  1 e 0 0 ]
+"248
+[v _Display_Alarm Display_Alarm `(v  1 e 0 0 ]
+"297
+[v _Display_Time Display_Time `(v  1 e 0 0 ]
+"365
+[v _Display_SetTime Display_SetTime `(v  1 e 0 0 ]
+"471
+[v _ISR ISR `II(v  1 e 0 0 ]
+"602
+[v _main main `(i  1 e 2 0 ]
+"55 C:\Program Files\Microchip\xc8\v1.35\include\pic16f887.h
+[v _TMR0 TMR0 `VEuc  1 e 1 @1 ]
+"343
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+[s S100 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INTF 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INTE 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"470
+[s S109 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 TMR0IE 1 0 :1:5 
+]
+[u S114 . 1 `S100 1 . 1 0 `S109 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES114  1 e 1 @11 ]
+"822
+[v _SSPBUF SSPBUF `VEuc  1 e 1 @19 ]
+"828
+[v _SSPCON SSPCON `VEuc  1 e 1 @20 ]
+"1204
+[v _ADRESH ADRESH `VEuc  1 e 1 @30 ]
+"1210
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @31 ]
+[s S26 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GO_nDONE 1 0 :1:1 
+`uc 1 CHS 1 0 :4:2 
+`uc 1 ADCS 1 0 :2:6 
+]
+"1241
+[s S31 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO 1 0 :1:1 
+`uc 1 CHS0 1 0 :1:2 
+`uc 1 CHS1 1 0 :1:3 
+`uc 1 CHS2 1 0 :1:4 
+`uc 1 CHS3 1 0 :1:5 
+`uc 1 ADCS0 1 0 :1:6 
+`uc 1 ADCS1 1 0 :1:7 
+]
+[s S40 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 nDONE 1 0 :1:1 
+]
+[s S43 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_DONE 1 0 :1:1 
+]
+[u S46 . 1 `S26 1 . 1 0 `S31 1 . 1 0 `S40 1 . 1 0 `S43 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES46  1 e 1 @31 ]
+[s S162 . 1 `uc 1 PS 1 0 :3:0 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+`uc 1 INTEDG 1 0 :1:6 
+`uc 1 nRBPU 1 0 :1:7 
+]
+"1330
+[s S169 . 1 `uc 1 PS0 1 0 :1:0 
+`uc 1 PS1 1 0 :1:1 
+`uc 1 PS2 1 0 :1:2 
+]
+[u S173 . 1 `S162 1 . 1 0 `S169 1 . 1 0 ]
+[v _OPTION_REGbits OPTION_REGbits `VES173  1 e 1 @129 ]
+"1440
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"1562
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"1999
+[v _SSPADD SSPADD `VEuc  1 e 1 @147 ]
+[s S188 . 1 `uc 1 WPUB 1 0 :8:0 
+]
+"2314
+[s S190 . 1 `uc 1 WPUB0 1 0 :1:0 
+`uc 1 WPUB1 1 0 :1:1 
+`uc 1 WPUB2 1 0 :1:2 
+`uc 1 WPUB3 1 0 :1:3 
+`uc 1 WPUB4 1 0 :1:4 
+`uc 1 WPUB5 1 0 :1:5 
+`uc 1 WPUB6 1 0 :1:6 
+`uc 1 WPUB7 1 0 :1:7 
+]
+[u S199 . 1 `S188 1 . 1 0 `S190 1 . 1 0 ]
+[v _WPUBbits WPUBbits `VES199  1 e 1 @149 ]
+[s S214 . 1 `uc 1 IOCB 1 0 :8:0 
+]
+"2383
+[s S216 . 1 `uc 1 IOCB0 1 0 :1:0 
+`uc 1 IOCB1 1 0 :1:1 
+`uc 1 IOCB2 1 0 :1:2 
+`uc 1 IOCB3 1 0 :1:3 
+`uc 1 IOCB4 1 0 :1:4 
+`uc 1 IOCB5 1 0 :1:5 
+`uc 1 IOCB6 1 0 :1:6 
+`uc 1 IOCB7 1 0 :1:7 
+]
+[u S225 . 1 `S214 1 . 1 0 `S216 1 . 1 0 ]
+[v _IOCBbits IOCBbits `VES225  1 e 1 @150 ]
+"2909
+[v _ADRESL ADRESL `VEuc  1 e 1 @158 ]
+"2915
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @159 ]
+"3314
+[v _ANSEL ANSEL `VEuc  1 e 1 @392 ]
+[s S139 . 1 `uc 1 ANS0 1 0 :1:0 
+`uc 1 ANS1 1 0 :1:1 
+`uc 1 ANS2 1 0 :1:2 
+`uc 1 ANS3 1 0 :1:3 
+`uc 1 ANS4 1 0 :1:4 
+`uc 1 ANS5 1 0 :1:5 
+`uc 1 ANS6 1 0 :1:6 
+`uc 1 ANS7 1 0 :1:7 
+]
+"3331
+[u S148 . 1 `S139 1 . 1 0 ]
+[v _ANSELbits ANSELbits `VES148  1 e 1 @392 ]
+"3375
+[v _ANSELH ANSELH `VEuc  1 e 1 @393 ]
+"3484
+[v _ACKDT ACKDT `VEb  1 e 0 @1165 ]
+"3486
+[v _ACKEN ACKEN `VEb  1 e 0 @1164 ]
+"3804
+[v _PEN PEN `VEb  1 e 0 @1162 ]
+"3814
+[v _PSA PSA `VEb  1 e 0 @1035 ]
+"3846
+[v _RB1 RB1 `VEb  1 e 0 @49 ]
+"3848
+[v _RB2 RB2 `VEb  1 e 0 @50 ]
+"3850
+[v _RB3 RB3 `VEb  1 e 0 @51 ]
+"3852
+[v _RB4 RB4 `VEb  1 e 0 @52 ]
+"3854
+[v _RB5 RB5 `VEb  1 e 0 @53 ]
+"3862
+[v _RBIF RBIF `VEb  1 e 0 @88 ]
+"3886
+[v _RCEN RCEN `VEb  1 e 0 @1163 ]
+"3896
+[v _RD0 RD0 `VEb  1 e 0 @64 ]
+"3900
+[v _RD2 RD2 `VEb  1 e 0 @66 ]
+"3902
+[v _RD3 RD3 `VEb  1 e 0 @67 ]
+"3904
+[v _RD4 RD4 `VEb  1 e 0 @68 ]
+"3906
+[v _RD5 RD5 `VEb  1 e 0 @69 ]
+"3908
+[v _RD6 RD6 `VEb  1 e 0 @70 ]
+"3910
+[v _RD7 RD7 `VEb  1 e 0 @71 ]
+"3926
+[v _RSEN RSEN `VEb  1 e 0 @1161 ]
+"3942
+[v _SEN SEN `VEb  1 e 0 @1160 ]
+"3946
+[v _SMP SMP `VEb  1 e 0 @1191 ]
+"3960
+[v _SSPIF SSPIF `VEb  1 e 0 @99 ]
+"4044
+[v _TRISA1 TRISA1 `VEb  1 e 0 @1065 ]
+"44 C:\Users\Administrator\MPLABXProjects\BTL\main.c
+[v _ADCvalue ADCvalue `f  1 e 3 0 ]
+"45
+[v _voltage voltage `f  1 e 3 0 ]
+"47
+[v _set set `uc  1 e 1 0 ]
+[v _count count `uc  1 e 1 0 ]
+[v _mode mode `uc  1 e 1 0 ]
+[v _quit quit `uc  1 e 1 0 ]
+[v _alarm alarm `uc  1 e 1 0 ]
+"48
+[v _second second `uc  1 e 1 0 ]
+[v _minute minute `uc  1 e 1 0 ]
+[v _hour hour `uc  1 e 1 0 ]
+[v _hour_display hour_display `uc  1 e 1 0 ]
+[v _date date `uc  1 e 1 0 ]
+[v _day day `uc  1 e 1 0 ]
+[v _month month `uc  1 e 1 0 ]
+[v _year year `uc  1 e 1 0 ]
+[v _day_alarm day_alarm `uc  1 e 1 0 ]
+[v _hour_alarm hour_alarm `uc  1 e 1 0 ]
+[v _hour_alarm_display hour_alarm_display `uc  1 e 1 0 ]
+[v _minute_alarm minute_alarm `uc  1 e 1 0 ]
+[v _temperature temperature `uc  1 e 1 0 ]
+"602
+[v _main main `(i  1 e 2 0 ]
+{
+"663
+} 0
+"5 C:\Users\Administrator\MPLABXProjects\BTL\i2c.c
+[v _i2c_Init i2c_Init `(v  1 e 0 0 ]
+{
+"9
+} 0
+"108 C:\Users\Administrator\MPLABXProjects\BTL\main.c
+[v _Read_FullTime Read_FullTime `(v  1 e 0 0 ]
+{
+"116
+} 0
+"70 C:\Users\Administrator\MPLABXProjects\BTL\i2c.c
+[v _DS1307_Read DS1307_Read `(uc  1 e 1 0 ]
+{
+[v DS1307_Read@add add `uc  1 a 1 wreg ]
+"71
+[v DS1307_Read@data data `uc  1 a 1 10 ]
+"81
+[v DS1307_Read@temp temp `uc  1 a 1 9 ]
+"70
+[v DS1307_Read@add add `uc  1 a 1 wreg ]
+"72
+[v DS1307_Read@add add `uc  1 a 1 8 ]
+"83
+} 0
+"43
+[v _i2c_Write i2c_Write `(v  1 e 0 0 ]
+{
+[v i2c_Write@data data `uc  1 a 1 wreg ]
+[v i2c_Write@data data `uc  1 a 1 wreg ]
+[v i2c_Write@data data `uc  1 a 1 0 ]
+"47
+} 0
+"23
+[v _i2c_Stop i2c_Stop `(v  1 e 0 0 ]
+{
+"27
+} 0
+"11
+[v _i2c_Start i2c_Start `(v  1 e 0 0 ]
+{
+"15
+} 0
+"17
+[v _i2c_Restart i2c_Restart `(v  1 e 0 0 ]
+{
+"21
+} 0
+"49
+[v _i2c_Read i2c_Read `(uc  1 e 1 0 ]
+{
+"54
+} 0
+"36
+[v _i2c_Nack i2c_Nack `(v  1 e 0 0 ]
+{
+"41
+} 0
+"4 C:\Program Files\Microchip\xc8\v1.35\sources\common\Umul8.c
+[v ___bmul __bmul `(uc  1 e 1 0 ]
+{
+[v ___bmul@multiplier multiplier `uc  1 a 1 wreg ]
+"6
+[v ___bmul@product product `uc  1 a 1 2 ]
+"4
+[v ___bmul@multiplier multiplier `uc  1 a 1 wreg ]
+[v ___bmul@multiplicand multiplicand `uc  1 p 1 0 ]
+"6
+[v ___bmul@multiplier multiplier `uc  1 a 1 3 ]
+"51
+} 0
+"70 C:\Users\Administrator\MPLABXProjects\BTL\LCD.c
+[v _Lcd_Init Lcd_Init `(v  1 e 0 0 ]
+{
+"87
+} 0
+"297 C:\Users\Administrator\MPLABXProjects\BTL\main.c
+[v _Display_Time Display_Time `(v  1 e 0 0 ]
+{
+"363
+} 0
+"365
+[v _Display_SetTime Display_SetTime `(v  1 e 0 0 ]
+{
+"466
+} 0
+"209
+[v _Display_Hour Display_Hour `(v  1 e 0 0 ]
+{
+"213
+} 0
+"248
+[v _Display_Alarm Display_Alarm `(v  1 e 0 0 ]
+{
+"295
+} 0
+"105 C:\Users\Administrator\MPLABXProjects\BTL\LCD.c
+[v _Lcd_Write_String Lcd_Write_String `(v  1 e 0 0 ]
+{
+[v Lcd_Write_String@a a `*.24uc  1 a 1 wreg ]
+"107
+[v Lcd_Write_String@i i `i  1 a 2 5 ]
+"105
+[v Lcd_Write_String@a a `*.24uc  1 a 1 wreg ]
+"108
+[v Lcd_Write_String@a a `*.24uc  1 a 1 7 ]
+"110
+} 0
+"49
+[v _Lcd_Set_Cursor Lcd_Set_Cursor `(v  1 e 0 0 ]
+{
+[v Lcd_Set_Cursor@a a `uc  1 a 1 wreg ]
+"51
+[v Lcd_Set_Cursor@temp temp `uc  1 a 1 9 ]
+[v Lcd_Set_Cursor@y y `uc  1 a 1 8 ]
+[v Lcd_Set_Cursor@z z `uc  1 a 1 7 ]
+"49
+[v Lcd_Set_Cursor@a a `uc  1 a 1 wreg ]
+[v Lcd_Set_Cursor@b b `uc  1 p 1 3 ]
+"52
+[v Lcd_Set_Cursor@a a `uc  1 a 1 6 ]
+"68
+} 0
+"34
+[v _Lcd_Cmd Lcd_Cmd `(v  1 e 0 0 ]
+{
+[v Lcd_Cmd@a a `uc  1 a 1 wreg ]
+[v Lcd_Cmd@a a `uc  1 a 1 wreg ]
+"36
+[v Lcd_Cmd@a a `uc  1 a 1 2 ]
+"41
+} 0
+"215 C:\Users\Administrator\MPLABXProjects\BTL\main.c
+[v _Display_HourAlarm Display_HourAlarm `(v  1 e 0 0 ]
+{
+"219
+} 0
+"204
+[v _Display Display `(v  1 e 0 0 ]
+{
+[v Display@One One `uc  1 a 1 wreg ]
+[v Display@One One `uc  1 a 1 wreg ]
+[v Display@One One `uc  1 a 1 11 ]
+"207
+} 0
+"6 C:\Program Files\Microchip\xc8\v1.35\sources\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"11
+[v ___awmod@sign sign `uc  1 a 1 6 ]
+[v ___awmod@counter counter `uc  1 a 1 5 ]
+"6
+[v ___awmod@divisor divisor `i  1 p 2 0 ]
+[v ___awmod@dividend dividend `i  1 p 2 2 ]
+"35
+} 0
+"6 C:\Program Files\Microchip\xc8\v1.35\sources\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"11
+[v ___awdiv@quotient quotient `i  1 a 2 7 ]
+"12
+[v ___awdiv@sign sign `uc  1 a 1 6 ]
+[v ___awdiv@counter counter `uc  1 a 1 5 ]
+"6
+[v ___awdiv@divisor divisor `i  1 p 2 0 ]
+[v ___awdiv@dividend dividend `i  1 p 2 2 ]
+"42
+} 0
+"89 C:\Users\Administrator\MPLABXProjects\BTL\LCD.c
+[v _Lcd_Write_Char Lcd_Write_Char `(v  1 e 0 0 ]
+{
+[v Lcd_Write_Char@a a `uc  1 a 1 wreg ]
+"91
+[v Lcd_Write_Char@y y `uc  1 a 1 3 ]
+[v Lcd_Write_Char@temp temp `uc  1 a 1 2 ]
+"89
+[v Lcd_Write_Char@a a `uc  1 a 1 wreg ]
+"92
+[v Lcd_Write_Char@a a `uc  1 a 1 4 ]
+"103
+} 0
+"12
+[v _Lcd_Port Lcd_Port `(v  1 e 0 0 ]
+{
+[v Lcd_Port@a a `uc  1 a 1 wreg ]
+[v Lcd_Port@a a `uc  1 a 1 wreg ]
+"14
+[v Lcd_Port@a a `uc  1 a 1 0 ]
+"33
+} 0
+"471 C:\Users\Administrator\MPLABXProjects\BTL\main.c
+[v _ISR ISR `II(v  1 e 0 0 ]
+{
+"600
+} 0
+"108
+[v i1_Read_FullTime Read_FullTime `(v  1 e 0 0 ]
+{
+"116
+} 0
+"167
+[v _Write_Time Write_Time `(v  1 e 0 0 ]
+{
+"173
+} 0
+"50
+[v _Fix_Time Fix_Time `(v  1 e 0 0 ]
+{
+"86
+} 0
+"138
+[v _Write_Min Write_Min `(v  1 e 0 0 ]
+{
+"146
+} 0
+"148
+[v _Write_Hour Write_Hour `(v  1 e 0 0 ]
+{
+"165
+} 0
+"60 C:\Users\Administrator\MPLABXProjects\BTL\i2c.c
+[v _DS1307_Write DS1307_Write `(v  1 e 0 0 ]
+{
+[v DS1307_Write@add add `uc  1 a 1 wreg ]
+"61
+[v DS1307_Write@tmp tmp `uc  1 a 1 11 ]
+"60
+[v DS1307_Write@add add `uc  1 a 1 wreg ]
+[v DS1307_Write@dat dat `uc  1 p 1 9 ]
+"62
+[v DS1307_Write@add add `uc  1 a 1 10 ]
+"68
+} 0
+"6 C:\Program Files\Microchip\xc8\v1.35\sources\common\awmod.c
+[v i1___awmod __awmod `(i  1 e 2 0 ]
+{
+[v i1___awmod@sign __awmod `uc  1 a 1 6 ]
+[v i1___awmod@counter __awmod `uc  1 a 1 5 ]
+[v i1___awmod@divisor divisor `i  1 p 2 0 ]
+[v i1___awmod@dividend dividend `i  1 p 2 2 ]
+"35
+} 0
+"6 C:\Program Files\Microchip\xc8\v1.35\sources\common\awdiv.c
+[v i1___awdiv __awdiv `(i  1 e 2 0 ]
+{
+[v i1___awdiv@quotient __awdiv `i  1 a 2 7 ]
+[v i1___awdiv@sign __awdiv `uc  1 a 1 6 ]
+[v i1___awdiv@counter __awdiv `uc  1 a 1 5 ]
+[v i1___awdiv@divisor divisor `i  1 p 2 0 ]
+[v i1___awdiv@dividend dividend `i  1 p 2 2 ]
+"42
+} 0
+"118 C:\Users\Administrator\MPLABXProjects\BTL\main.c
+[v _Read_Time Read_Time `(v  1 e 0 0 ]
+{
+"128
+} 0
+"70 C:\Users\Administrator\MPLABXProjects\BTL\i2c.c
+[v i1_DS1307_Read DS1307_Read `(uc  1 e 1 0 ]
+{
+[v i1DS1307_Read@add add `uc  1 a 1 wreg ]
+[v i1DS1307_Read@data DS1307_Read `uc  1 a 1 10 ]
+[v i1DS1307_Read@temp DS1307_Read `uc  1 a 1 9 ]
+[v i1DS1307_Read@add add `uc  1 a 1 wreg ]
+"72
+[v i1DS1307_Read@add add `uc  1 a 1 8 ]
+"83
+} 0
+"43
+[v i1_i2c_Write i2c_Write `(v  1 e 0 0 ]
+{
+[v i1i2c_Write@data data `uc  1 a 1 wreg ]
+[v i1i2c_Write@data data `uc  1 a 1 wreg ]
+[v i1i2c_Write@data data `uc  1 a 1 0 ]
+"47
+} 0
+"23
+[v i1_i2c_Stop i2c_Stop `(v  1 e 0 0 ]
+{
+"27
+} 0
+"11
+[v i1_i2c_Start i2c_Start `(v  1 e 0 0 ]
+{
+"15
+} 0
+"17
+[v i1_i2c_Restart i2c_Restart `(v  1 e 0 0 ]
+{
+"21
+} 0
+"49
+[v i1_i2c_Read i2c_Read `(uc  1 e 1 0 ]
+{
+"54
+} 0
+"36
+[v i1_i2c_Nack i2c_Nack `(v  1 e 0 0 ]
+{
+"41
+} 0
+"4 C:\Program Files\Microchip\xc8\v1.35\sources\common\Umul8.c
+[v i1___bmul __bmul `(uc  1 e 1 0 ]
+{
+[v i1___bmul@multiplier multiplier `uc  1 a 1 wreg ]
+[v i1___bmul@product __bmul `uc  1 a 1 2 ]
+[v i1___bmul@multiplier multiplier `uc  1 a 1 wreg ]
+[v i1___bmul@multiplicand multiplicand `uc  1 p 1 0 ]
+"6
+[v i1___bmul@multiplier multiplier `uc  1 a 1 3 ]
+"51
+} 0
+"130 C:\Users\Administrator\MPLABXProjects\BTL\main.c
+[v _Read_Tem Read_Tem `(v  1 e 0 0 ]
+{
+"136
+} 0
+"44 C:\Program Files\Microchip\xc8\v1.35\sources\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+{
+"47
+[v ___fttol@lval lval `ul  1 a 4 35 ]
+"46
+[v ___fttol@exp1 exp1 `uc  1 a 1 39 ]
+[v ___fttol@sign1 sign1 `uc  1 a 1 34 ]
+"44
+[v ___fttol@f1 f1 `f  1 p 3 26 ]
+"73
+} 0
+"62 C:\Program Files\Microchip\xc8\v1.35\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+{
+"65
+[v ___ftmul@f3_as_product f3_as_product `um  1 a 3 5 ]
+"64
+[v ___ftmul@sign sign `uc  1 a 1 9 ]
+[v ___ftmul@cntr cntr `uc  1 a 1 8 ]
+[v ___ftmul@exp exp `uc  1 a 1 4 ]
+"62
+[v ___ftmul@f1 f1 `f  1 p 3 8 ]
+[v ___ftmul@f2 f2 `f  1 p 3 11 ]
+"157
+} 0
+"56 C:\Program Files\Microchip\xc8\v1.35\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+{
+"60
+[v ___ftdiv@f3 f3 `f  1 a 3 21 ]
+"59
+[v ___ftdiv@sign sign `uc  1 a 1 25 ]
+[v ___ftdiv@exp exp `uc  1 a 1 24 ]
+[v ___ftdiv@cntr cntr `uc  1 a 1 20 ]
+"56
+[v ___ftdiv@f2 f2 `f  1 p 3 10 ]
+[v ___ftdiv@f1 f1 `f  1 p 3 13 ]
+"86
+} 0
+"32 C:\Program Files\Microchip\xc8\v1.35\sources\common\awtoft.c
+[v ___awtoft __awtoft `(f  1 e 3 0 ]
+{
+"34
+[v ___awtoft@sign sign `uc  1 a 1 13 ]
+"32
+[v ___awtoft@c c `i  1 p 2 8 ]
+"42
+} 0
+"62 C:\Program Files\Microchip\xc8\v1.35\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+{
+[v ___ftpack@arg arg `um  1 p 3 0 ]
+[v ___ftpack@exp exp `uc  1 p 1 3 ]
+[v ___ftpack@sign sign `uc  1 p 1 4 ]
+"86
+} 0
+"88 C:\Users\Administrator\MPLABXProjects\BTL\main.c
+[v _Fix_Alarm Fix_Alarm `(v  1 e 0 0 ]
+{
+"106
+} 0
+"175
+[v _Change_Mode12h Change_Mode12h `(v  1 e 0 0 ]
+{
+"199
+} 0
