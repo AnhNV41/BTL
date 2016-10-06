@@ -13,7 +13,7 @@
 
 // PIC16F887 Configuration Bit Settings
 
-// 'C' source line config statements
+// 'C' source line config statementsssssssss
 
 #include <xc.h>
 
